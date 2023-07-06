@@ -131,3 +131,4 @@ dist
 
 tailwind.config.js
 postcss.config.js
+/build
