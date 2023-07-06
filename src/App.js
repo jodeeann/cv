@@ -1,7 +1,9 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route }from 'react-router-dom';
 
 function App() {
   return (
+    <Router basename='cv'>
     <div>
       <header>
         <h1 className='text-center'>Jodee Ann Conui</h1>
@@ -17,6 +19,7 @@ function App() {
         <h3>Professional Organizations</h3>
       </body>
     </div>
+    </Router>
   );
 }
 

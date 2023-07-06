@@ -132,3 +132,4 @@ dist
 tailwind.config.js
 postcss.config.js
 /build
+.DS_Store
